@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-screenplay: "Courier Prime", "Courier New", Courier, monospace;
+  --font-mono: "Space Mono", monospace;
+}
+
+/* Custom screenplay styling */
+.screenplay-text {
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+}
+
+.serif-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Subtle cinematic film grain & scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #232530;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3e52;
+}
